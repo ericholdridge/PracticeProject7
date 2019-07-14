@@ -7,6 +7,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  color: #333;
 }
 
 body .container {
@@ -29,6 +30,9 @@ nav .container {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 nav .container .logo-left a {
@@ -129,5 +133,363 @@ nav .container .items-right a:nth-child(1) {
 .home .container .home-btns .btn2:hover {
   background: #00c6d7;
   border: 4px solid #00c6d7;
+}
+
+.what-we-do {
+  width: 100%;
+  padding: 90px 0;
+}
+
+.what-we-do .heading {
+  text-align: center;
+  padding: 0 0 70px 0;
+}
+
+.what-we-do .heading h1 {
+  color: #00c6d7;
+  font-weight: 600;
+  font-size: 4rem;
+  letter-spacing: -4px;
+  margin: 0;
+}
+
+.what-we-do .heading span {
+  display: block;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin: 25px 0 20px 0;
+}
+
+.what-we-do .heading hr {
+  width: 170px;
+}
+
+.what-we-do .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.what-we-do .container .card {
+  width: 100%;
+  max-width: 390px;
+  text-align: center;
+  padding: 30px 20px 45px 20px;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+
+.what-we-do .container .card:hover {
+  -webkit-box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.2);
+          box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.2);
+}
+
+.what-we-do .container .card h3 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}
+
+.what-we-do .container .card hr {
+  width: 180px;
+}
+
+.what-we-do .container .card p {
+  margin: 25px 0 0 0;
+  line-height: 28px;
+  font-size: 1rem;
+}
+
+.our-agency {
+  width: 100%;
+  background: #3B3B3B;
+  padding: 90px 0;
+}
+
+.our-agency .heading {
+  text-align: center;
+  padding: 0 0 50px 0;
+}
+
+.our-agency .heading h1 {
+  color: #00c6d7;
+  font-weight: 600;
+  font-size: 4rem;
+  letter-spacing: -4px;
+  margin: 0;
+}
+
+.our-agency .heading span {
+  display: block;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin: 25px 0 20px 0;
+  color: #fff;
+}
+
+.our-agency .heading hr {
+  width: 170px;
+}
+
+.our-agency .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.our-agency .container .card-img {
+  width: 100%;
+  max-width: 570px;
+}
+
+.our-agency .container .card-img img {
+  width: 100%;
+  display: block;
+}
+
+.our-agency .container .card-info {
+  width: 100%;
+  max-width: 570px;
+}
+
+.our-agency .container .card-info h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  margin: 15px 0;
+}
+
+.our-agency .container .card-info span {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.our-agency .container .card-info .wrap {
+  width: 100%;
+  border-bottom: 1px solid #606060;
+  padding: 30px 0 20px 0;
+}
+
+.our-agency .container .card-info .wrap .links a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0 20px;
+}
+
+.our-agency .container .card-info .wrap .links a:nth-child(1) {
+  color: #00c6d7;
+}
+
+.our-agency .container .card-info p {
+  color: #fff;
+  line-height: 28px;
+  margin: 22px 0 0 0;
+}
+
+.our-agency .container .card-info p a {
+  color: #00c6d7;
+  text-decoration: none;
+}
+
+.our-agency .container .card-info p:last-of-type {
+  margin: 10px 0 0 0;
+}
+
+.talented-team {
+  width: 100%;
+  padding: 90px 0;
+}
+
+.talented-team .heading {
+  text-align: center;
+  padding: 0 0 70px 0;
+}
+
+.talented-team .heading h1 {
+  color: #00c6d7;
+  font-weight: 600;
+  font-size: 4rem;
+  letter-spacing: -4px;
+  margin: 0;
+}
+
+.talented-team .heading span {
+  display: block;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin: 25px 0 20px 0;
+}
+
+.talented-team .heading hr {
+  width: 160px;
+}
+
+.talented-team .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.talented-team .container .card-team {
+  width: 100%;
+  max-width: 280px;
+  height: 280px;
+  background: url("img/team1.jpg") no-repeat center center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.talented-team .container .card-team:nth-child(2) {
+  background: url("img/team2.jpg") no-repeat center center;
+}
+
+.talented-team .container .card-team:nth-child(3) {
+  background: url("img/team3.jpg") no-repeat center center;
+}
+
+.talented-team .container .card-team:nth-child(4) {
+  background: url("img/team4.jpg") no-repeat center center;
+}
+
+.talented-team .container .card-team:hover .overlay {
+  opacity: 1;
+}
+
+.talented-team .container .card-team .overlay {
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: opacity 600ms;
+  transition: opacity 600ms;
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.talented-team .container .card-team .overlay h3 {
+  color: #fff;
+  margin: 0 0 30px 0;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.talented-team .container .card-team .overlay span {
+  color: #00c6d7;
+  text-transform: capitalize;
+  margin: 0 0 30px 0;
+  display: block;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: .9rem;
+}
+
+.talented-team .container .card-team .overlay hr {
+  width: 180px;
+  color: #fff;
+}
+
+.talented-team .container .card-team .icons {
+  color: #fff;
+  margin: 40px 0 0 0;
+}
+
+.talented-team .container .card-team .icons i {
+  margin: 0 40px 0 0;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.talented-team .container .card-team .icons i:nth-child(3) {
+  margin: 0;
+}
+
+.our-portfolio {
+  width: 100%;
+  padding: 90px 0;
+  background: #f6f6f6;
+}
+
+.our-portfolio .heading {
+  text-align: center;
+  padding: 0 0 70px 0;
+}
+
+.our-portfolio .heading h1 {
+  color: #00c6d7;
+  font-weight: 600;
+  font-size: 4rem;
+  letter-spacing: -4px;
+  margin: 0;
+}
+
+.our-portfolio .heading span {
+  display: block;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin: 25px 0 20px 0;
+}
+
+.our-portfolio .heading hr {
+  width: 160px;
+}
+
+.our-portfolio .portfolio-items {
+  text-align: center;
+}
+
+.our-portfolio .portfolio-items a {
+  color: #999999;
+  text-transform: uppercase;
+  margin: 0 40px 0 0;
+  text-decoration: none;
+  font-weight: 600;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+
+.our-portfolio .portfolio-items a:hover {
+  color: #00c6d7;
+}
+
+.our-portfolio .portfolio-items a:nth-child(1) {
+  color: #00c6d7;
+}
+
+.our-portfolio .portfolio-pics {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */

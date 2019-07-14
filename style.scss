@@ -1,6 +1,8 @@
 // Colors
 $blue: #00c6d7;
 $wht: #fff;
+$bdy: #333;
+$agncybg: #3B3B3B;
 
 * {
     box-sizing: border-box;
@@ -10,6 +12,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    color: $bdy;
     .container {
         width: 100%;
         max-width: 1170px;
@@ -26,6 +29,7 @@ nav {
     .container {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         .logo-left {
             a {
                 text-transform: capitalize;
@@ -112,6 +116,300 @@ nav {
                     border: 4px solid $blue;
                 }
             }
+        }
+    }
+}
+
+// What We Do
+.what-we-do {
+    width: 100%;
+    padding: 90px 0;
+    .heading {
+        text-align: center;
+        padding: 0 0 70px 0;
+        h1 {
+            color: $blue;
+            font-weight: 600;
+            font-size: 4rem;
+            letter-spacing: -4px;
+            margin: 0;
+        }
+        span {
+            display: block;
+            font-weight: 600;
+            font-size: 1.6rem;
+            text-transform: uppercase;
+            margin: 25px 0 20px 0;
+        }
+        hr {
+            width: 170px;
+        }
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        .card {
+            width: 100%;
+            max-width: 390px;
+            text-align: center;
+            padding: 30px 20px 45px 20px;
+            transition: .4s ease-in-out;
+            &:hover {
+                box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.20)
+            }
+            h3 {
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-size: 1.2rem;
+            }
+            hr {
+                width: 180px;
+            }
+            p {
+                margin: 25px 0 0 0;
+                line-height: 28px;
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+// Our Agency 
+.our-agency {
+    width: 100%;
+    background: $agncybg;
+    padding: 90px 0;
+    .heading {
+        text-align: center;
+        padding: 0 0 50px 0;
+        h1 {
+            color: $blue;
+            font-weight: 600;
+            font-size: 4rem;
+            letter-spacing: -4px;
+            margin: 0;
+        }
+        span {
+            display: block;
+            font-weight: 600;
+            font-size: 1.6rem;
+            text-transform: uppercase;
+            margin: 25px 0 20px 0;
+            color: $wht;
+        }
+        hr {
+            width: 170px;
+        }
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+        .card-img {
+            width: 100%;
+            max-width: 570px;
+            img {
+                width: 100%;
+                display: block;
+            }
+        }
+        .card-info {
+            width: 100%;
+            max-width: 570px;
+            h2 {
+                color: $wht;
+                text-transform: uppercase;
+                font-size: 1.7rem;
+                margin: 15px 0;
+            }
+            span {
+                color: $wht;
+                font-weight: 600;
+                font-size: 1.3rem;
+            }
+            .wrap {
+                width: 100%;
+                border-bottom: 1px solid #606060;
+                padding: 30px 0 20px 0;
+                .links {
+                    a {
+                        text-decoration: none;
+                        color: $wht;
+                        text-transform: uppercase;
+                        padding: 0 20px;
+                        &:nth-child(1) {
+                            color: $blue;
+                        }
+                    }
+                }
+            }
+            p {
+                color: $wht;
+                line-height: 28px;
+                margin: 22px 0 0 0;
+                a {
+                    color: $blue;
+                    text-decoration: none;
+                }
+                &:last-of-type {
+                    margin: 10px 0 0 0;
+                }
+            }
+        }
+    }
+}
+
+// Talented Team 
+.talented-team {
+    width: 100%;
+    padding: 90px 0;
+    .heading {
+        text-align: center;
+        padding: 0 0 70px 0;
+        h1 {
+            color: $blue;
+            font-weight: 600;
+            font-size: 4rem;
+            letter-spacing: -4px;
+            margin: 0;
+        }
+        span {
+            display: block;
+            font-weight: 600;
+            font-size: 1.6rem;
+            text-transform: uppercase;
+            margin: 25px 0 20px 0;
+        }
+        hr {
+            width: 160px;
+        }
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+        .card-team {
+            width: 100%;
+            max-width: 280px;
+            height: 280px;
+            background: url('img/team1.jpg') no-repeat center center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:nth-child(2) {
+                background: url('img/team2.jpg') no-repeat center center;
+            }
+            &:nth-child(3) {
+                background: url('img/team3.jpg') no-repeat center center;
+            }
+            &:nth-child(4) {
+                background: url('img/team4.jpg') no-repeat center center;
+            }
+            &:hover {
+                .overlay {
+                    opacity: 1;
+                }
+            }
+            .overlay {
+                text-align: center;
+                opacity: 0;
+                transition: opacity 600ms;
+                background: rgba(00,00,00,0.6);
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                h3 {
+                    color: $wht;
+                    margin: 0 0 30px 0;
+                    font-weight: 600;
+                    font-size: 1.4rem;
+                }
+                span {
+                    color: $blue;
+                    text-transform: capitalize;
+                    margin: 0 0 30px 0;
+                    display: block;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                    font-size: .9rem;
+                }
+                hr {
+                    width: 180px;
+                    color: $wht;
+                }
+            }
+            .icons {
+                color: $wht;
+                margin: 40px 0 0 0;
+                i {
+                    margin: 0 40px 0 0;
+                    cursor: pointer;
+                    font-weight: 600;
+                    &:nth-child(3) {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+// Our Portfolio
+.our-portfolio {
+    width: 100%;
+    padding: 90px 0;
+    background: #f6f6f6;
+    .heading {
+        text-align: center;
+        padding: 0 0 70px 0;
+        h1 {
+            color: $blue;
+            font-weight: 600;
+            font-size: 4rem;
+            letter-spacing: -4px;
+            margin: 0;
+        }
+        span {
+            display: block;
+            font-weight: 600;
+            font-size: 1.6rem;
+            text-transform: uppercase;
+            margin: 25px 0 20px 0;
+        }
+        hr {
+            width: 160px;
+        }
+    }
+    .portfolio-items {
+        text-align: center;
+        a {
+            color: #999999;
+            text-transform: uppercase;
+            margin: 0 40px 0 0;
+            text-decoration: none;
+            font-weight: 600;
+            transition: .4s ease-in-out;
+            &:hover {
+                color: $blue;
+            }
+            &:nth-child(1) {
+                color: $blue;
+            }
+        }
+    }
+    .portfolio-pics {
+        width: 100%;
+        .portfolio-pics {
+            
         }
     }
 }
