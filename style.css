@@ -469,6 +469,7 @@ nav .container .items-right a:nth-child(1) {
 
 .our-portfolio .portfolio-items {
   text-align: center;
+  padding: 0 0 30px 0;
 }
 
 .our-portfolio .portfolio-items a {
@@ -479,6 +480,8 @@ nav .container .items-right a:nth-child(1) {
   font-weight: 600;
   -webkit-transition: .4s ease-in-out;
   transition: .4s ease-in-out;
+  font-size: .9rem;
+  letter-spacing: 1px;
 }
 
 .our-portfolio .portfolio-items a:hover {
@@ -490,6 +493,172 @@ nav .container .items-right a:nth-child(1) {
 }
 
 .our-portfolio .portfolio-pics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 100%;
+}
+
+.our-portfolio .portfolio-pics .port-pic {
+  width: 33.3%;
+  height: auto;
+  padding: 10px;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+
+.our-portfolio .portfolio-pics .port-pic:hover {
+  opacity: .6;
+}
+
+.our-portfolio .portfolio-pics .port-pic img {
+  width: 100%;
+  display: block;
+}
+
+.our-pricing {
+  width: 100%;
+  padding: 90px 0;
+}
+
+.our-pricing .heading {
+  text-align: center;
+  padding: 0 0 70px 0;
+}
+
+.our-pricing .heading h1 {
+  color: #00c6d7;
+  font-weight: 600;
+  font-size: 4rem;
+  letter-spacing: -4px;
+  margin: 0;
+}
+
+.our-pricing .heading span {
+  display: block;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin: 25px 0 20px 0;
+}
+
+.our-pricing .heading hr {
+  width: 160px;
+}
+
+.our-pricing .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.our-pricing .container .pricing-card {
+  width: 100%;
+  max-width: 370px;
+  text-align: center;
+  padding: 80px 30px;
+  -webkit-box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.2);
+          box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.2);
+}
+
+.our-pricing .container .pricing-card .icon-circle {
+  width: 120px;
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.2);
+          box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.2);
+}
+
+.our-pricing .container .pricing-card h3 {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  margin: 60px 0 15px 0;
+}
+
+.our-pricing .container .pricing-card .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.our-pricing .container .pricing-card .price h1 {
+  font-weight: 600;
+  font-size: 3.6rem;
+  margin: 0 15px 0 0;
+}
+
+.our-pricing .container .pricing-card .price span {
+  display: block;
+  margin: 26px 0 0 0;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.our-pricing .container .pricing-card .features {
+  padding: 40px 0 0 0;
+}
+
+.our-pricing .container .pricing-card .features p {
+  font-weight: 600;
+  font-size: .9rem;
+  padding: 0 0 13px 0;
+}
+
+.our-pricing .container .pricing-card .pricing-btn {
+  padding: 40px 0 0 0;
+}
+
+.our-pricing .container .pricing-card .pricing-btn a {
+  padding: 20px 60px;
+  background: #00c6d7;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+
+.our-pricing .container .pricing-card .pricing-btn a:hover {
+  background: #3B3B3B;
+}
+
+.our-pricing .container .pricing-card .pricing-btn .btn1 {
+  background: #ffa400;
+}
+
+.our-pricing .container .pricing-card .pricing-btn .btn1:hover {
+  background: #3B3B3B;
+}
+
+.our-pricing .container .pricing-card .pricing-btn .btn3 {
+  background: #009988;
+}
+
+.our-pricing .container .pricing-card .pricing-btn .btn3:hover {
+  background: #3B3B3B;
 }
 /*# sourceMappingURL=style.css.map */

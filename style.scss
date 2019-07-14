@@ -356,13 +356,6 @@ nav {
     }
 }
 
-
-
-
-
-
-
-
 // Our Portfolio
 .our-portfolio {
     width: 100%;
@@ -391,6 +384,7 @@ nav {
     }
     .portfolio-items {
         text-align: center;
+        padding: 0 0 30px 0;
         a {
             color: #999999;
             text-transform: uppercase;
@@ -398,6 +392,8 @@ nav {
             text-decoration: none;
             font-weight: 600;
             transition: .4s ease-in-out;
+            font-size: .9rem;
+            letter-spacing: 1px;
             &:hover {
                 color: $blue;
             }
@@ -407,9 +403,128 @@ nav {
         }
     }
     .portfolio-pics {
+        display: flex;
+        flex-wrap: wrap;
         width: 100%;
-        .portfolio-pics {
-            
+        .port-pic {
+            width: 33.3%;
+            height: auto;
+            padding: 10px;
+            transition: .4s ease-in-out;
+            &:hover {
+                opacity: .6;
+            }
+            img {
+                width: 100%;
+                display: block;
+            }
+        }
+    }
+}
+
+// Our Pricing
+.our-pricing {
+    width: 100%;
+    padding: 90px 0;
+    .heading {
+        text-align: center;
+        padding: 0 0 70px 0;
+        h1 {
+            color: $blue;
+            font-weight: 600;
+            font-size: 4rem;
+            letter-spacing: -4px;
+            margin: 0;
+        }
+        span {
+            display: block;
+            font-weight: 600;
+            font-size: 1.6rem;
+            text-transform: uppercase;
+            margin: 25px 0 20px 0;
+        }
+        hr {
+            width: 160px;
+        }
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+        .pricing-card {
+            width: 100%;
+            max-width: 370px;
+            text-align: center;
+            padding: 80px 30px;
+            box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.20);
+            .icon-circle {
+                width: 120px;
+                height: 120px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0 auto;
+                border-radius: 50%;
+                box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.20)
+            }
+            h3 {
+               text-transform: uppercase;
+               font-weight: 600;
+               letter-spacing: 1px;
+               font-size: 1rem;
+               margin: 60px 0 15px 0;
+            }
+            .price {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                h1 {
+                    font-weight: 600;
+                    font-size: 3.6rem;
+                    margin: 0 15px 0 0;
+                }
+                span {
+                    display: block;
+                    margin: 26px 0 0 0;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                }
+            }
+            .features {
+                padding: 40px 0 0 0;
+                p {
+                    font-weight: 600;
+                    font-size: .9rem;
+                    padding: 0 0 13px 0;
+                }
+            }
+            .pricing-btn {
+                padding: 40px 0 0 0;
+                a {
+                    padding: 20px 60px;
+                    background: $blue;
+                    color: $wht;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    transition: .4s ease-in-out;
+                    &:hover {
+                        background: #3B3B3B;
+                    }
+                }
+                .btn1 {
+                    background: #ffa400;
+                    &:hover {
+                        background: #3B3B3B;
+                    }
+                }
+                .btn3 {
+                    background: #009988;
+                    &:hover {
+                        background: #3B3B3B;
+                    }
+                }
+            }
+        
         }
     }
 }
