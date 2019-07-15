@@ -6,7 +6,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #333;
 }
 
@@ -46,7 +46,7 @@ nav .container .logo-left a {
 nav .container .items-right a {
   margin: 0 28px 0 0;
   text-transform: uppercase;
-  font-size: .9rem;
+  font-size: 0.9rem;
   text-decoration: none;
   font-weight: 600;
   color: #fff;
@@ -86,7 +86,7 @@ nav .container .items-right a:nth-child(1) {
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 1.3px;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .home .container .home-content h1 {
@@ -110,8 +110,8 @@ nav .container .items-right a:nth-child(1) {
   text-decoration: none;
   font-weight: 600;
   border: 4px solid #00c6d7;
-  -webkit-transition: .4s ease-in-out;
-  transition: .4s ease-in-out;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
 .home .container .home-btns .btn1:hover {
@@ -126,8 +126,8 @@ nav .container .items-right a:nth-child(1) {
   text-decoration: none;
   font-weight: 600;
   border: 4px solid #fff;
-  -webkit-transition: .4s ease-in-out;
-  transition: .4s ease-in-out;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
 .home .container .home-btns .btn2:hover {
@@ -178,8 +178,8 @@ nav .container .items-right a:nth-child(1) {
   max-width: 390px;
   text-align: center;
   padding: 30px 20px 45px 20px;
-  -webkit-transition: .4s ease-in-out;
-  transition: .4s ease-in-out;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
 .what-we-do .container .card:hover {
@@ -205,7 +205,7 @@ nav .container .items-right a:nth-child(1) {
 
 .our-agency {
   width: 100%;
-  background: #3B3B3B;
+  background: #3b3b3b;
   padding: 90px 0;
 }
 
@@ -296,7 +296,7 @@ nav .container .items-right a:nth-child(1) {
 }
 
 .our-agency .container .card-info p a {
-  color: #00c6d7;
+  color: #ff0;
   text-decoration: none;
 }
 
@@ -413,7 +413,7 @@ nav .container .items-right a:nth-child(1) {
   display: block;
   font-weight: 600;
   letter-spacing: 1px;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .talented-team .container .card-team .overlay hr {
@@ -478,9 +478,9 @@ nav .container .items-right a:nth-child(1) {
   margin: 0 40px 0 0;
   text-decoration: none;
   font-weight: 600;
-  -webkit-transition: .4s ease-in-out;
-  transition: .4s ease-in-out;
-  font-size: .9rem;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  font-size: 0.9rem;
   letter-spacing: 1px;
 }
 
@@ -505,12 +505,12 @@ nav .container .items-right a:nth-child(1) {
   width: 33.3%;
   height: auto;
   padding: 10px;
-  -webkit-transition: .4s ease-in-out;
-  transition: .4s ease-in-out;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
 .our-portfolio .portfolio-pics .port-pic:hover {
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .our-portfolio .portfolio-pics .port-pic img {
@@ -614,7 +614,7 @@ nav .container .items-right a:nth-child(1) {
   display: block;
   margin: 26px 0 0 0;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 0.8px;
 }
 
 .our-pricing .container .pricing-card .features {
@@ -623,7 +623,7 @@ nav .container .items-right a:nth-child(1) {
 
 .our-pricing .container .pricing-card .features p {
   font-weight: 600;
-  font-size: .9rem;
+  font-size: 0.9rem;
   padding: 0 0 13px 0;
 }
 
@@ -638,12 +638,12 @@ nav .container .items-right a:nth-child(1) {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
-  -webkit-transition: .4s ease-in-out;
-  transition: .4s ease-in-out;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
 .our-pricing .container .pricing-card .pricing-btn a:hover {
-  background: #3B3B3B;
+  background: #3b3b3b;
 }
 
 .our-pricing .container .pricing-card .pricing-btn .btn1 {
@@ -651,7 +651,7 @@ nav .container .items-right a:nth-child(1) {
 }
 
 .our-pricing .container .pricing-card .pricing-btn .btn1:hover {
-  background: #3B3B3B;
+  background: #3b3b3b;
 }
 
 .our-pricing .container .pricing-card .pricing-btn .btn3 {
@@ -659,6 +659,292 @@ nav .container .items-right a:nth-child(1) {
 }
 
 .our-pricing .container .pricing-card .pricing-btn .btn3:hover {
-  background: #3B3B3B;
+  background: #3b3b3b;
+}
+
+.contact-us {
+  width: 100%;
+  padding: 90px 0;
+  text-align: center;
+  background: url("img/contact.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.contact-us .heading {
+  text-align: center;
+  padding: 0 0 70px 0;
+}
+
+.contact-us .heading h1 {
+  color: #00c6d7;
+  font-weight: 600;
+  font-size: 4rem;
+  letter-spacing: -4px;
+  margin: 0;
+}
+
+.contact-us .heading span {
+  display: block;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin: 25px 0 20px 0;
+  color: #fff;
+}
+
+.contact-us .heading hr {
+  width: 160px;
+}
+
+.contact-us .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact-us .container .card-left {
+  width: 100%;
+  max-width: 560px;
+  text-align: left;
+  color: #fff;
+}
+
+.contact-us .container .card-left h1 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.contact-us .container .card-left p {
+  margin: 30px 0 20px 0;
+  line-height: 1.6rem;
+}
+
+.contact-us .container .card-left .contact-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact-us .container .card-left .contact-info .wrap {
+  width: 100%;
+  max-width: 400px;
+}
+
+.contact-us .container .card-left .contact-info .wrap p {
+  margin: 0 0 0 13px;
+}
+
+.contact-us .container .card-left .contact-info .wrap .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px 0 0 0;
+}
+
+.contact-us .container .card-left .contact-info .wrap .contact i {
+  margin: 0 13px 0 13px;
+}
+
+.contact-us .container .card-left .contact-info .wrap .contact h3 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 16px 0 0 0;
+  font-size: 1rem;
+}
+
+.contact-us .container .card-right {
+  width: 100%;
+  max-width: 560px;
+  text-align: left;
+  margin: 60px 0 0 0;
+}
+
+.contact-us .container .card-right form {
+  width: 100%;
+}
+
+.contact-us .container .card-right form .name-email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact-us .container .card-right form .name-email input {
+  width: 100%;
+  padding: 14px 14px 13px 13px;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.contact-us .container .card-right form .name-email input:nth-child(1) {
+  margin: 0 30px 0 0;
+}
+
+.contact-us .container .card-right form .name-email input::-webkit-input-placeholder {
+  font-size: 0.9rem;
+  color: #bbbbbb;
+  font-weight: 200;
+}
+
+.contact-us .container .card-right form .name-email input:-ms-input-placeholder {
+  font-size: 0.9rem;
+  color: #bbbbbb;
+  font-weight: 200;
+}
+
+.contact-us .container .card-right form .name-email input::-ms-input-placeholder {
+  font-size: 0.9rem;
+  color: #bbbbbb;
+  font-weight: 200;
+}
+
+.contact-us .container .card-right form .name-email input::placeholder {
+  font-size: 0.9rem;
+  color: #bbbbbb;
+  font-weight: 200;
+}
+
+.contact-us .container .card-right form .name-email input:focus {
+  outline: none;
+}
+
+.contact-us .container .card-right form textarea {
+  width: 100%;
+  padding: 10px 0 0 13px;
+  margin: 18px 0 0 0;
+  font-size: 0.9rem;
+}
+
+.contact-us .container .card-right form textarea::-webkit-input-placeholder {
+  font-size: 0.9rem;
+  color: #bbbbbb;
+  font-weight: 200;
+}
+
+.contact-us .container .card-right form textarea:-ms-input-placeholder {
+  font-size: 0.9rem;
+  color: #bbbbbb;
+  font-weight: 200;
+}
+
+.contact-us .container .card-right form textarea::-ms-input-placeholder {
+  font-size: 0.9rem;
+  color: #bbbbbb;
+  font-weight: 200;
+}
+
+.contact-us .container .card-right form textarea::placeholder {
+  font-size: 0.9rem;
+  color: #bbbbbb;
+  font-weight: 200;
+}
+
+.contact-us .container .card-right form textarea:focus {
+  outline: none;
+}
+
+.contact-us .container .card-right .btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 25px 0 0 0;
+}
+
+.contact-us .container .card-right .btn a {
+  border: none;
+  width: 65%;
+  padding: 17px 0;
+  background: #00c6d7;
+  color: #fff;
+  text-align: center;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  text-decoration: none;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.contact-us .container .card-right .btn a:hover {
+  color: #000;
+}
+
+footer {
+  width: 100%;
+  padding: 60px 0;
+}
+
+footer p {
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+footer p a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
+
+footer hr {
+  width: 180px;
+}
+
+footer .container {
+  width: 100%;
+  max-width: 360px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .container .card {
+  margin: 20px 0 0 0;
+  -webkit-box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.09);
+          box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.09);
+  width: 100%;
+  max-width: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+}
+
+footer .container .card i {
+  color: #808080;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+footer .container .card i:hover {
+  color: #00c6d7;
 }
 /*# sourceMappingURL=style.css.map */
