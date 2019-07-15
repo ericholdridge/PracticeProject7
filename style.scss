@@ -713,3 +713,88 @@ footer {
     }
   }
 }
+
+//
+// Responsive
+//
+@media (max-width: 768px) {
+  // What We Do
+  .what-we-do {
+    .container {
+      width: 90%;
+      justify-content: center;
+    }
+  }
+
+  // Our Agency
+  .our-agency {
+    .container {
+      width: 90%;
+      flex-direction: column-reverse;
+      align-items: center;
+      .card-img {
+        margin: 20px 0 0 0;
+      }
+    }
+  }
+
+  // Talented Team
+  .talented-team {
+    .container {
+      width: 90%;
+      flex-direction: column;
+      align-items: center;
+      .card-team {
+        max-width: 400px;
+        margin: 20px 0 0 0;
+      }
+    }
+  }
+
+  // Our Portfolio
+  .our-portfolio {
+    .heading {
+      padding: 0 0 30px 0;
+    }
+    .portfolio-items {
+      margin: 0 auto;
+      width: 90%;
+      padding: 0;
+      a {
+        margin: 0 10px;
+      }
+    }
+    .portfolio-pics {
+      margin: 20px 0 0 0;
+    }
+  }
+  // Our Pricing
+  .our-pricing {
+    .container {
+      width: 90%;
+      flex-direction: column;
+      align-items: center;
+      .pricing-card {
+        margin: 20px 0 0 0;
+      }
+    }
+  }
+
+  // Contact Us
+  .contact-us {
+    .container {
+      width: 90%;
+      flex-direction: column;
+      align-items: center;
+      .card-right {
+        form {
+          .btn {
+            a {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

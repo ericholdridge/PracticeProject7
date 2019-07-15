@@ -947,4 +947,80 @@ footer .container .card i {
 footer .container .card i:hover {
   color: #00c6d7;
 }
+
+@media (max-width: 768px) {
+  .what-we-do .container {
+    width: 90%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .our-agency .container {
+    width: 90%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .our-agency .container .card-img {
+    margin: 20px 0 0 0;
+  }
+  .talented-team .container {
+    width: 90%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .talented-team .container .card-team {
+    max-width: 400px;
+    margin: 20px 0 0 0;
+  }
+  .our-portfolio .heading {
+    padding: 0 0 30px 0;
+  }
+  .our-portfolio .portfolio-items {
+    margin: 0 auto;
+    width: 90%;
+    padding: 0;
+  }
+  .our-portfolio .portfolio-items a {
+    margin: 0 10px;
+  }
+  .our-portfolio .portfolio-pics {
+    margin: 20px 0 0 0;
+  }
+  .our-pricing .container {
+    width: 90%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .our-pricing .container .pricing-card {
+    margin: 20px 0 0 0;
+  }
+  .contact-us .container {
+    width: 90%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact-us .container .card-right form .btn a {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
