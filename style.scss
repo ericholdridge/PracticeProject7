@@ -26,6 +26,7 @@ nav {
   padding: 24px 0;
   position: absolute;
   top: 0;
+  z-index: 1000;
   .container {
     display: flex;
     justify-content: space-between;
@@ -38,6 +39,10 @@ nav {
         color: $blue;
         text-decoration: none;
       }
+    }
+    #burger {
+      color: $wht;
+      display: none;
     }
     .items-right {
       a {
@@ -714,27 +719,15 @@ footer {
   }
 }
 
-//
-// Responsive
-//
+// -----------------------------
+// Responsive design starts here
+// -----------------------------
 @media (max-width: 768px) {
   // What We Do
   .what-we-do {
     .container {
       width: 90%;
       justify-content: center;
-    }
-  }
-
-  // Our Agency
-  .our-agency {
-    .container {
-      width: 90%;
-      flex-direction: column-reverse;
-      align-items: center;
-      .card-img {
-        margin: 20px 0 0 0;
-      }
     }
   }
 
@@ -795,6 +788,122 @@ footer {
           }
         }
       }
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  // Our Agency
+  .our-agency {
+    .container {
+      width: 90%;
+      flex-direction: column-reverse;
+      align-items: center;
+      .card-img {
+        max-width: 1100px;
+        margin: 20px 0 0 0;
+      }
+      .card-info {
+        max-width: 1100px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1101px) and (max-width: 1240px) {
+  // Our Agency
+  .our-agency {
+    .container {
+      width: 90%;
+      justify-content: space-between;
+      .card-img {
+        max-width: 48%;
+        margin: 18px 0 0 0;
+        img {
+          height: auto;
+        }
+      }
+      .card-info {
+        max-width: 50%;
+      }
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 865px) {
+  // What We Do
+  .what-we-do {
+    .container {
+      width: 90%;
+      justify-content: space-between;
+      .card {
+        max-width: 50%;
+      }
+    }
+  }
+}
+
+@media (min-width: 866px) and (max-width: 1240px) {
+  .what-we-do {
+    .container {
+      width: 90%;
+      justify-content: space-between;
+      .card {
+        max-width: 50%;
+      }
+    }
+  }
+}
+@media (min-width: 886px) and (max-width: 1000px) {
+  .what-we-do {
+    .container {
+      width: 90%;
+      justify-content: space-between;
+      margin: 0 auto;
+      .card {
+        width: 100%;
+        margin: 10px 0 0 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 840px) {
+  // Mobile Navigation
+  nav {
+    background: #4b4b4b;
+    position: fixed;
+    padding: 13px 0;
+    .container {
+      flex-wrap: wrap;
+      #burger {
+        color: $blue;
+        display: block;
+        cursor: pointer;
+      }
+      .items-right {
+        margin: 15px 0 0 0;
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        a {
+          margin: 7px 0;
+          -webkit-user-select: none;
+        }
+        &.hide {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1237px) {
+  // Navigation
+  nav {
+    .container {
+      width: 90%;
     }
   }
 }
