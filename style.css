@@ -368,14 +368,17 @@ nav .container .items-right a:nth-child(1) {
 
 .talented-team .container .card-team:nth-child(2) {
   background: url("img/team2.jpg") no-repeat center center;
+  background-size: cover;
 }
 
 .talented-team .container .card-team:nth-child(3) {
   background: url("img/team3.jpg") no-repeat center center;
+  background-size: cover;
 }
 
 .talented-team .container .card-team:nth-child(4) {
   background: url("img/team4.jpg") no-repeat center center;
+  background-size: cover;
 }
 
 .talented-team .container .card-team:hover .overlay {
@@ -561,6 +564,8 @@ nav .container .items-right a:nth-child(1) {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .our-pricing .container .pricing-card {
@@ -1068,6 +1073,17 @@ footer .container .card i:hover {
   }
 }
 
+@media (min-width: 769px) and (max-width: 1270px) {
+  .talented-team .container {
+    width: 90%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .talented-team .container .card-team {
+    max-width: 50%;
+  }
+}
+
 @media (min-width: 866px) and (max-width: 1240px) {
   .what-we-do .container {
     width: 90%;
@@ -1131,9 +1147,82 @@ footer .container .card i:hover {
   }
 }
 
+@media (min-width: 769px) and (max-width: 1100px) {
+  .our-pricing .container {
+    width: 90%;
+  }
+  .our-pricing .container .pricing-card {
+    max-width: 48%;
+  }
+  .our-pricing .container .pricing-card:nth-child(3) {
+    margin: 40px auto;
+  }
+}
+
+@media (min-width: 1101px) and (max-width: 1245px) {
+  .our-pricing .container {
+    width: 90%;
+  }
+  .our-pricing .container .pricing-card {
+    max-width: 30%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .contact-us .container {
+    width: 95%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact-us .container .card-left {
+    max-width: 90%;
+  }
+  .contact-us .container .card-right {
+    max-width: 90%;
+  }
+}
+
 @media (max-width: 1237px) {
   nav .container {
     width: 90%;
+  }
+}
+
+@media (max-width: 375px) {
+  .home .container {
+    width: 95%;
+    border: 1px solid red;
+  }
+  .home .container .home-btns {
+    border: 1px solid green;
+    margin: 60px 0;
+  }
+  .home .container .home-btns .btn1, .home .container .home-btns .btn2 {
+    font-size: .9rem;
+    padding: 10px 20px;
+  }
+  footer p {
+    width: 95%;
+    border: 1px solid green;
+  }
+  footer .container {
+    width: 90%;
+    border: 1px solid red;
+  }
+  .our-portfolio .portfolio-items a {
+    font-size: .8rem;
+  }
+  .contact-us .container .contact-info .wrap p {
+    font-size: .9rem;
+  }
+  .our-agency .container .card-info span {
+    font-size: 1rem;
+    font-weight: 400;
   }
 }
 /*# sourceMappingURL=style.css.map */

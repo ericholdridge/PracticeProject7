@@ -302,12 +302,15 @@ nav {
       align-items: center;
       &:nth-child(2) {
         background: url("img/team2.jpg") no-repeat center center;
+        background-size: cover;
       }
       &:nth-child(3) {
         background: url("img/team3.jpg") no-repeat center center;
+        background-size: cover;
       }
       &:nth-child(4) {
         background: url("img/team4.jpg") no-repeat center center;
+        background-size: cover;
       }
       &:hover {
         .overlay {
@@ -455,6 +458,7 @@ nav {
   .container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     .pricing-card {
       width: 100%;
       max-width: 370px;
@@ -843,6 +847,18 @@ footer {
   }
 }
 
+@media (min-width: 769px) and (max-width: 1270px) {
+  .talented-team {
+    .container {
+      width: 90%;
+      flex-wrap: wrap;
+      .card-team {
+        max-width: 50%;
+      }
+    }
+  }
+}
+
 @media (min-width: 866px) and (max-width: 1240px) {
   .what-we-do {
     .container {
@@ -899,11 +915,111 @@ footer {
   }
 }
 
+@media (min-width: 769px) and (max-width: 1100px) {
+  .our-pricing {
+    .container {
+      width: 90%;
+      .pricing-card {
+        max-width: 48%;
+        &:nth-child(3) {
+          margin: 40px auto;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1101px) and (max-width: 1245px) {
+  .our-pricing {
+    .container {
+      width: 90%;
+      .pricing-card {
+        max-width: 30%;
+      }
+    }
+  }
+}
+
+// Contact Us
+@media (min-width: 769px) and (max-width: 1200px) {
+  .contact-us {
+    .container {
+      width: 95%;
+      flex-direction: column;
+      align-items: center;
+      .card-left {
+        max-width: 90%;
+      }
+      .card-right {
+        max-width: 90%;
+      }
+    }
+  }
+}
+
 @media (max-width: 1237px) {
   // Navigation
   nav {
     .container {
       width: 90%;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .home {
+    .container {
+      width: 95%;
+      border: 1px solid red;
+      .home-btns {
+        border: 1px solid green;
+        margin: 60px 0;
+        .btn1, .btn2 {
+          font-size: .9rem;
+          padding: 10px 20px;
+        }
+      }
+    }
+  }
+  footer {
+    p {
+      width: 95%;
+      border: 1px solid green;
+    }
+    .container {
+      width: 90%;
+      border: 1px solid red;
+    }
+  }
+  
+  .our-portfolio {
+    .portfolio-items {
+      a {
+        font-size: .8rem;
+      }
+    }
+  }
+
+  .contact-us {
+    .container {
+      .contact-info {
+        .wrap {
+          p {
+            font-size: .9rem;
+          }
+        }
+      }
+    }
+  }
+
+  .our-agency {
+    .container {
+      .card-info {
+        span {
+          font-size: 1rem;
+          font-weight: 400;
+        }
+      }
     }
   }
 }
