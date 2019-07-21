@@ -1196,10 +1196,8 @@ footer .container .card i:hover {
 @media (max-width: 375px) {
   .home .container {
     width: 95%;
-    border: 1px solid red;
   }
   .home .container .home-btns {
-    border: 1px solid green;
     margin: 60px 0;
   }
   .home .container .home-btns .btn1, .home .container .home-btns .btn2 {
@@ -1208,11 +1206,9 @@ footer .container .card i:hover {
   }
   footer p {
     width: 95%;
-    border: 1px solid green;
   }
   footer .container {
     width: 90%;
-    border: 1px solid red;
   }
   .our-portfolio .portfolio-items a {
     font-size: .8rem;

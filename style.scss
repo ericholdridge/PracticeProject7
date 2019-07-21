@@ -970,9 +970,7 @@ footer {
   .home {
     .container {
       width: 95%;
-      border: 1px solid red;
       .home-btns {
-        border: 1px solid green;
         margin: 60px 0;
         .btn1, .btn2 {
           font-size: .9rem;
@@ -984,11 +982,10 @@ footer {
   footer {
     p {
       width: 95%;
-      border: 1px solid green;
     }
     .container {
       width: 90%;
-      border: 1px solid red;
+
     }
   }
   
